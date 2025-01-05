@@ -16,6 +16,11 @@ html{
     font-size: 10px;
   }
 }
+@media (width <= 900px) {
+    html {
+    font-size: 10px;
+  }
+}
 @media (max-width: 1366px) and (min-width: 1281px) {
     html {
     font-size: 12px;

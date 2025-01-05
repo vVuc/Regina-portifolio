@@ -19,11 +19,17 @@ export const Info = styled.div`
     margin-left: 2rem;
 }
 
- .Bar{
+@media (width <= 900px) {
+    margin-left: 0rem;
+    margin-top: 3rem;
+}
+
+.Bar{
     width: 8rem;
     height: 1px;
     background-color: #000;
 }
+
 h2 {
     margin-left: 5px;
     color: #241C1A;
@@ -70,5 +76,10 @@ export const Contato = styled.div`
     display: flex;
     align-items: center;
     margin-left: 2rem;
+}
+
+@media (width <= 900px) {
+    margin-left: 0rem;
+    flex-direction: column ;
 }
 `

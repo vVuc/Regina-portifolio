@@ -14,9 +14,13 @@ export const CardStyles = styled.section`
     font-weight: 700;
     line-height: normal;
 }
-ul{
+
+ul{ 
     padding-left:2rem;
+    opacity: 0.7;
+
 }
+
 div{
     padding: 1rem;
     width: 15.875rem;
@@ -41,5 +45,6 @@ div{
         opacity: 0.7;
 
     }
-}
-`
+
+
+}`

@@ -27,6 +27,16 @@ export const HeaderStyle = styled.header`
         letter-spacing: 2.4px;
         max-width: 41.0625rem;
     }
+
+        @media (width <= 900px) {
+            h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
 }
 
 `

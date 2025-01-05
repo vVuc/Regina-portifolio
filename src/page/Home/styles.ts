@@ -56,9 +56,25 @@ export const BodyStlyles = styled.body`
         justify-content: center;
         z-index: 10;
     }
+
     .statue{
         width: 39.5rem;
         height: 100vh;
         z-index: 99;
     }
+
+      
+    @media (width <= 900px) {
+        &{
+            padding:3rem;
+        }
+
+        main{
+            display: block; 
+        }
+
+        .statue{
+            display: none;
+    }
+}
 `
