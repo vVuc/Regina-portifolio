@@ -23,8 +23,8 @@ ul{
 
 div{
     padding: 1rem;
-    width: 15.875rem;
-    height: 14.375rem;
+    width: 16rem;
+    height: 15rem;
     flex-shrink: 0;
 
     display: flex;
