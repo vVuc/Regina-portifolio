@@ -36,7 +36,7 @@ div{
 
     h1{
         color: #241C1A;
-        font-size: 1.375rem;
+        font-size: 1.35rem;
     }
 
     p{
